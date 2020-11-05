@@ -19,8 +19,8 @@ public class FirstClass {
 		System.out.println(checkAmount(1, 2));
 		positiveOrNegative(2);
 		System.out.println(positiveOrNegative2(1));
-		hiName();
-		leapYear(2820);
+		hiName("Картошкин Лаврентий Леопольдович");
+		leapYear(2800);
 	}
 
 	//Написать метод вычисляющий выражение a * (b + (c / d)) и возвращающий результат,
@@ -59,9 +59,8 @@ public class FirstClass {
 	//Написать метод, которому в качестве параметра передается строка, обозначающая имя.
 	//Метод должен вывести в консоль сообщение «Привет, указанное_имя!».
 
-	public static void hiName() {
-		String name = "Картошкин Лаврентий Леопольдович";
-		System.out.println("Привет, " + name + "!");
+	public static void hiName(String a) {
+		System.out.println("Привет, " + a + "!");
 	}
 	//* Написать метод, который определяет является ли год високосным,
 	//и выводит сообщение в консоль. Каждый 4-й год является високосным,
