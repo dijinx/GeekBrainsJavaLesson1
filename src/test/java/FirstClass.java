@@ -20,7 +20,7 @@ public class FirstClass {
 		positiveOrNegative(2);
 		System.out.println(positiveOrNegative2(1));
 		hiName();
-		leapYear(2704);
+		leapYear(2820);
 	}
 
 	//Написать метод вычисляющий выражение a * (b + (c / d)) и возвращающий результат,
@@ -68,10 +68,12 @@ public class FirstClass {
 	//кроме каждого 100-го, при этом каждый 400-й – високосный.
 
 	public static void leapYear(int a) {
-		if (a % 100 == 0 && a % 4 ==0 && a% 400 != 0)
-			System.out.println("не високосный");
-		else if (a % 4 ==0)
-			System.out.println(" високосный");
+		if (a % 100 == 0 && a % 4 == 0 && a % 400 != 0)
+			System.out.println("Год " + a + " не является високосным.");
+		else if (a % 4 != 0)
+			System.out.println("Год " + a + " не является високосным.");
+		else if (a % 4 == 0)
+			System.out.println("Год " + a + " является високосным.");
 
 	}
 }
