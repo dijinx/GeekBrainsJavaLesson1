@@ -13,7 +13,7 @@ public class FirstClass {
 	char aChar = 'f';
 	String aString = "Hi!";
 
-	public static void main(String[] args) {
+	public static void main(String[]args) {
 
 		System.out.println(result(1, 2, 3, 4));
 		System.out.println(checkAmount(1, 2));
