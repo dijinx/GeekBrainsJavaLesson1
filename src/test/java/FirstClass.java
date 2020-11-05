@@ -3,7 +3,7 @@ public class FirstClass {
 	byte aByte = 1;
 	short aShort = 2;
 	int anInt = 3;
-	long aLong = 4;
+	long aLong = 4l;
 
 	double aDouble = 5.5;
 	float aFloat = 6.6f;
